@@ -1,0 +1,72 @@
+.about{
+
+}
+.about section.image{
+    padding: 128px 0;
+ background-image: url('../assets/about-1.avif');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50%;
+ position: relative;
+}
+.about section.image::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0 ,.7);
+}
+.about section.image h1{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 55;
+    font-size: 62px;
+    margin: 0;
+}
+.about section.content{
+padding: 90px 0;
+background-color: rgb(249 250 251/1);
+}
+.about section.content .container{
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.about section.content .container .text{
+  width: 50%;
+}
+@media (max-width:767px) {
+    .about section.content .container .text{
+        width: 100%;
+    }
+}
+.about section.content .container .text h1{
+color: rgb(55 65 81/1);
+font-size: 60px;
+}
+@media (max-width:767px){
+    .about section.content .container .text h1{
+        font-size: 50px;
+    }  
+}
+.about section.content .container .text p{
+    color: rgb(55 65 81/1);
+    font-size: 18px;
+}
+.about section.content .container .image{
+    width: 43%;
+}
+@media (max-width:767px) {
+    .about section.content .container .image{
+        width: 100%;
+        padding-top: 30px;
+    }
+}
+.about section.content .container .image img{
+  max-width: 100%;
+}

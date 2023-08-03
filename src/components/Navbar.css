@@ -1,0 +1,24 @@
+/* @media (min-width: 576px){
+.container .navbar{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+} */
+.navebar{
+    background-color: rgb(249 250 251/1);
+    box-shadow: 0 -9px 18px black;
+}
+.navbar-brand{
+    color: black;
+    font-size: 74px;
+    text-transform: uppercase;
+}
+.container .navbar li a{
+    color: black;
+}
+.container .navbar li a.active{
+    color: rgb(56 189 248);
+}
+.p-0{
+    /* padding: 0; */
+}

@@ -1,0 +1,100 @@
+.features {
+    padding: 50px 0;
+}
+
+.features h1 {
+    padding-bottom: 30px;
+    font-size: 37px;
+    text-align: center;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    gap: 30px;
+}
+
+@media (min-width:767px) {
+   .features .container {
+        padding: 0 100px;
+    }
+}
+
+.features .card {
+    background-color: #0000000a;
+    border: none;
+    padding: 25px 10px 25px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px -11px black;
+}
+
+.features .card .image {
+    text-align: center;
+}
+
+.features .card .image img {
+    max-width: 100%;
+}
+
+.features .card h3 {
+    font-size: 21px;
+    padding-top: 15px;
+}
+
+.features .card h4 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555151;
+    text-transform: capitalize;
+}
+
+.features .card h4 span {
+    color: black;
+    font-weight: 600;
+}
+
+.features .card p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555151;
+    text-transform: capitalize;
+}
+
+.features .card p span {
+    color: black;
+    color: red;
+    font-weight: 700;
+}
+
+.features .card .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .card .buttons button:nth-child(1) {
+    color: rgb(56 189 248);
+    border: 1px solid rgb(56 189 248);
+    padding: 5px 11px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 17px;
+    transition: .3s;
+}
+.features .card .buttons button:nth-child(1):hover{
+    background-color: rgb(56 189 248);
+    color: #fff;
+}
+.features .card .buttons button:nth-child(2) {
+    background-color: rgb(56 189 248);
+    border: none;
+    padding: 5px 11px;
+    border-radius: 7px;
+    color: #fff;
+    transition: 0.3s;
+}
+.features .card .buttons button:nth-child(2):hover{
+    background-color: transparent;
+    color: rgb(56 189 248);
+    border: 1px solid rgb(56 189 248);
+}

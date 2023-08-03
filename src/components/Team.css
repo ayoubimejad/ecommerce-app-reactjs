@@ -1,0 +1,54 @@
+.team{
+  padding: 100px 0;
+}
+.team .main-title{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width:767px) {
+    .team .main-title{
+        width: 400px;
+    } 
+}
+.team .main-title h1{
+    color: rgb(55 65 81/1);
+    font-size: 50px;
+}
+.team .main-title p{
+    padding-bottom: 75px;
+}
+
+.team .container{
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
+  gap: 40px;
+}
+@media (min-width:992px) {
+    .team .container{
+        padding: 0 90px;   
+    }
+}
+.team .container .card{
+    text-align: center;
+    padding: 30px 10px;
+    background-color: rgb(249 250 251/1);
+    border: none;
+}
+.team .container .card .image{
+    
+}
+.team .container .card .image img{
+    
+}
+.team .container .card h3{
+    color: rgb(55 65 81/1);
+    padding-top: 18px;
+    font-size: 29px;
+}
+.team .container .card p{
+    color: rgb(55 65 81/1);
+    font-weight: 400;
+    font-size: 19px;  
+}

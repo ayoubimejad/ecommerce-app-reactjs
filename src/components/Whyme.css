@@ -1,0 +1,36 @@
+.us{
+padding: 70px 0;
+background-color: rgb(249 250 251/1); 
+}
+.us .container{
+
+}
+.us .container h2{
+    text-align: center;
+    color: rgb(55 65 81);
+    font-size: 35px;
+}
+.us .container .grid{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 28px;
+}
+.us .container .grid .text-center{
+   background-color: rgb(243 244 246/4); 
+   padding: 40px 10px;
+}
+.us .container .grid .text-center svg{
+    font-size: 70px;
+    color: rgb(55 65 81);
+}
+.us .container .grid .text-center h1{
+    font-size: 25px;
+    padding-top: 12px;
+    color: rgb(55 65 81);
+}
+.us .container .grid .text-center p{
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 12px;
+}

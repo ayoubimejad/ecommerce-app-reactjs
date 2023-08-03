@@ -1,0 +1,100 @@
+.bestselling {
+    padding: 50px 0;
+}
+
+.bestselling h1 {
+    padding-bottom: 30px;
+    font-size: 37px;
+    text-align: center;
+}
+
+.bestselling .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    gap: 30px;
+}
+
+@media (min-width:767px) {
+   .bestselling .container {
+        padding: 0 100px;
+    }
+}
+
+.bestselling .card {
+    background-color: #0000000a;
+    border: none;
+    padding: 25px 10px 25px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px -11px black;
+}
+
+.bestselling .card .image {
+    text-align: center;
+}
+
+.bestselling .card .image img {
+    max-width: 100%;
+}
+
+.bestselling .card h3 {
+    font-size: 21px;
+    padding-top: 15px;
+}
+
+.bestselling .card h4 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555151;
+    text-transform: capitalize;
+}
+
+.bestselling .card h4 span {
+    color: black;
+    font-weight: 600;
+}
+
+.bestselling .card p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555151;
+    text-transform: capitalize;
+}
+
+.bestselling .card p span {
+    color: black;
+    color: red;
+    font-weight: 700;
+}
+
+.bestselling .card .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestselling .card .buttons button:nth-child(1) {
+    color: rgb(56 189 248);
+    border: 1px solid rgb(56 189 248);
+    padding: 5px 11px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 17px;
+    transition: .3s;
+}
+.bestselling .card .buttons button:nth-child(1):hover{
+    background-color: rgb(56 189 248);
+    color: #fff;
+}
+.bestselling .card .buttons button:nth-child(2) {
+    background-color: rgb(56 189 248);
+    border: none;
+    padding: 5px 11px;
+    border-radius: 7px;
+    color: #fff;
+    transition: 0.3s;
+}
+.bestselling .card .buttons button:nth-child(2):hover{
+    background-color: transparent;
+    color: rgb(56 189 248);
+    border: 1px solid rgb(56 189 248);
+}
